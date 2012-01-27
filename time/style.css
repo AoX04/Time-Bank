@@ -1,0 +1,112 @@
+html{
+	letter-spacing: -1px;color: #444;
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+}
+body{
+
+}
+.custom{
+	cursor:pointer;
+	font-family: Lobster;
+	text-shadow: #000000 0px 0px 2px;
+	font-size: 28px;
+	line-height: 40px;
+	font-effect: outline;
+	letter-spacing: -1px;color: #ffffff;
+	text-align:center;
+}
+
+#main{
+	overflow:auto !important;
+	position:relative;
+	top:15px;
+	height:70%;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#container{
+	width:900px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:35px;
+	height:800px;
+	//background-color:#7BB5FC;
+	border-style:solid;
+	border-color:#B8D6FC;
+	border-width:1px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+}
+
+input, textarea {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color:#fff;
+	border:1px solid #ccc;
+	font-size:22px;
+	
+	text-align:center;
+	
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+input:focus, textarea:focus {
+	-webkit-box-shadow:0 0 25px #ccc;
+	-moz-box-shadow:0 0 25px #ccc;
+	box-shadow:0 0 25px #ccc;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+#header{
+	cursor:pointer;
+}
+
+.header:hover{
+	-webkit-box-shadow:2px 2px 25px #B8D6FC;
+	-moz-box-shadow:2px 2px 25px #B8D6FC;
+	box-shadow:2px 2px 25px #B8D6FC;
+}
+
+.shadow {
+    box-shadow: -2px -2px 5px #616161 inset, 2px 2px 3px #616161, -1px -1px 2px #616161;
+}
+
+td.header{
+
+	//background-color:blue;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-width:1px;
+	border-color:#BCCBDD;
+	text-align:center;
+}
+
+#header{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:825px;
+	background-color:#FFFFFF;
+	
+	
+}
+
+#footer{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:825px;
+	background-color:#FFFFFF;
+	
+	
+}

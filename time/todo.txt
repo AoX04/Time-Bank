@@ -1,0 +1,5 @@
+raul!!
+
+Arreglar la funcion 'entrar' tiene un bug
+cambia los iframe por svg (o algo k soporte un hipervinculo arriba)
+hacer que la pagina magica que recibe to los forms redirija a otra pagina
